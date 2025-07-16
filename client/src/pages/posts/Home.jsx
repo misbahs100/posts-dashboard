@@ -19,7 +19,7 @@ const Home = () => {
       setPosts(data.posts);
       // Remove the loading
       setLoading(false);
-    }, 1000);
+    }, 0);
   }, []);
 
   return (

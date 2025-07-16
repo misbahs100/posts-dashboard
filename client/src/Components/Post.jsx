@@ -5,7 +5,7 @@ const Post = ({ post, children }) => {
 
       <div className="flex items-start justify-between">
         <div>
-          <h2 className="font-bold text-lg text-indigo-600 first-letter:uppercase">{post.title}</h2>
+          <h2 className="font-bold text-lg text-teal-600 first-letter:uppercase">{post.title}</h2>
           <p className="text-[10px] text-slate-500">{new Date(post.createdAt).toLocaleDateString()}</p>
         </div>
 
@@ -14,7 +14,7 @@ const Post = ({ post, children }) => {
 
         <p className="text-sm mt-4">{post.body}</p>
 
-    <div className="h-px w-full bg-gradient-to-r from-indigo-50 via-indigo-500/70 to-indigo-50 mt-6"></div>
+    <div className="h-px w-full bg-gradient-to-r from-teal-50 via-teal-500/70 to-teal-50 mt-6"></div>
     </div>
   );
 };
